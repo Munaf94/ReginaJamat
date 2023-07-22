@@ -1,0 +1,52 @@
+git config --global user.name "username"  {necesssary configurations}
+
+git config --global user.email "something@gmail.com"   {necesssary configurations}
+
+git config --global init.default branch main  {to make a default branch} 
+
+git help config  { help manual }
+
+cd path  { to move to desired files }
+
+git init { to initiate repository }
+
+git status { to know status of repositories }
+
+git add index.htm  {  to add untracked files }  
+git add --all git | add A | git add .   { to track all the files }
+
+create .gitignore file to ignore git from tracking any files or to hide information files.
+
+git commit - m "commit name"   { to commit file }
+
+git commit -a -m "commit name"  { to bypass staging or working file status and commit directly }
+
+git rm filename  {delete file }
+ 
+git restore "filename"  { restore deleted file }
+
+git mv "oldfilename" "newfilename"   { Rename file name }
+
+git log { to know all the record of commits }
+git log --oneline
+git log -p  { to know in details about commit }
+
+git branch newbranchname  | git switch -c newbranchname{ to create a new branch }
+
+git branch  { to see available branches }
+
+git switch newcreatedbranch  { to switch to different branch }
+
+git merge -m "some text" branchnametomergewith
+
+git branch -d branchname  {delete a branch}
+
+
+{to push local directory into github }
+git remote add origin https://github.com/Munaf94/repositoryname
+git branch -m main 
+git push -u origin main
+
+git push --all {to push all the branches to github from computer file explorer }
+
+

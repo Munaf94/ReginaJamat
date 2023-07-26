@@ -57,6 +57,9 @@ or
 git pull
 
 
+ git push -u origin master { to push local file changes on Github }
+
+
 
 
 

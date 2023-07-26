@@ -42,11 +42,21 @@ git merge -m "some text" branchnametomergewith
 git branch -d branchname  {delete a branch}
 
 
-{to push local directory into github }
+{to push local directory into github for the first time }
 git remote add origin https://github.com/Munaf94/repositoryname
 git branch -m main 
 git push -u origin main
 
 git push --all {to push all the branches to github from computer file explorer }
+
+
+{to pull update file on remote to local computer }
+git fetch
+git merge
+or 
+git pull
+
+
+
 
 
